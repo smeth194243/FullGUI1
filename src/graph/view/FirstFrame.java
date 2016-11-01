@@ -1,6 +1,7 @@
 package graph.view;
 
 import javax.swing.JFrame;
+import java.awt.Dimension;
 import graph.controller.GraphController;
 
 public class FirstFrame extends JFrame
@@ -17,6 +18,8 @@ public class FirstFrame extends JFrame
 	
 	public void setupFrame()
 	{
+		this.setSize(new Dimension(600,400));
+		this.setLocationRelativeTo(null);
 		this. setVisible(true);
 	}
 }

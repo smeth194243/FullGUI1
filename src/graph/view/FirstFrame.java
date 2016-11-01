@@ -12,5 +12,11 @@ public class FirstFrame extends JFrame
 		super();
 		this.baseController = baseController;
 		
+		this.setupFrame();
+	}
+	
+	public void setupFrame()
+	{
+		this. setVisible(true);
 	}
 }
